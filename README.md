@@ -3,7 +3,7 @@ Develped with (DI+MVC+EntityFrmework) AND(WebAPI+EntityFramework)
 
 MVC WebAPP:
 
-Step1 : There is HealthCareDBScript.sql inside the Evolent.HealthCare.rar folder - run that script in SQL server.
+Step1 : There is HealthCareDBScript.sql inside the Evolent.HealthCare.rar folder - run that script in SQL server, if you get any insert error then please ignore it becoz some data dummy data would be there
 Step2: Cross check the connection string in MVC Project & WebAPI project : data source=(local)(This should be installed SQL server name)
 <connectionStrings>
     <add name="HealthCareEntities" connectionString="metadata=res://*/DataAccess.HelathCare.csdl|res://*/DataAccess.HelathCare.ssdl|res://*/DataAccess.HelathCare.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(local);initial catalog=HealthCare;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
